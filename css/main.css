@@ -38,8 +38,12 @@ Primary use:
 }
 
 @font-face {
-  font-family: RobotoMono;
+  font-family: RobotoMono-Bold;
   src: url('../fonts/RobotoMono/RobotoMono-Bold.ttf'); 
+}
+@font-face {
+  font-family: RobotoMono-Regular;
+  src: url('../fonts/RobotoMono/RobotoMono-Regular.ttf'); 
 }
 
 
@@ -205,7 +209,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ S-Text 0 - 15 ]*/
 .s1-txt1 {
-  font-family: Poppins-Regular;
+  font-family: Robotomono-Regular;
   font-size: 15px;
   color: #fff;
   line-height: 1.2;
@@ -217,14 +221,14 @@ input.input100 {
 
 /*---------------------------------------------*/
 .m2-txt1 {
-  font-family: Robotomono;
+  font-family: Robotomono-Regular;
   font-size: 25px;
   color: #fff;
   line-height: 1.2;
 }
 
 .m2-txt2 {
-  font-family: Robotomono;
+  font-family: Robotomono-Regular;
   font-size: 18px;
   color: #fff;
   line-height: 1;
@@ -233,7 +237,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
 .l1-txt1 {
-  font-family: Robotomono;
+  font-family: Robotomono-Bold;
   font-size: 48px;
   color: #fff;
   line-height: 1.2;
@@ -241,7 +245,7 @@ input.input100 {
 }
 
 .l1-txt2 {
-  font-family: Robotomono;
+  font-family: Robotomono-Bold;
   font-size: 70px;
   color: #fff;
   line-height: 1;

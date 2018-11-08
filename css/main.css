@@ -1,12 +1,14 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
-
+body, html {
+  background: rgb(0, 0, 0);
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -14,36 +16,36 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Light;
-  src: url('../fonts/Poppins/Poppins-Light.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Light.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: PlayfairDisplay-Regular;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf'); 
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
 }
 
 @font-face {
   font-family: PlayfairDisplay-Italic;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf'); 
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf');
 }
 
 @font-face {
   font-family: RobotoMono-Bold;
-  src: url('../fonts/RobotoMono/RobotoMono-Bold.ttf'); 
+  src: url('../fonts/RobotoMono/RobotoMono-Bold.ttf');
 }
 @font-face {
   font-family: RobotoMono-Regular;
-  src: url('../fonts/RobotoMono/RobotoMono-Regular.ttf'); 
+  src: url('../fonts/RobotoMono/RobotoMono-Regular.ttf');
 }
 
 
@@ -316,7 +318,7 @@ img {
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   margin: 20px 5px 0px 5px;
@@ -324,46 +326,13 @@ img {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #fff;}
 .placeholder0:-moz-placeholder { color: #fff;}
 .placeholder0::-moz-placeholder { color: #fff;}
 .placeholder0:-ms-input-placeholder { color: #fff;}
 
-/*---------------------------------------------*/
-.overlay1 {
-  position: relative;
-  z-index: 1;
-}
-.overlay1::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #61045f;
-  background: -webkit-linear-gradient(bottom, #aa076b, #61045f);
-  background: -o-linear-gradient(bottom, #aa076b, #61045f);
-  background: -moz-linear-gradient(bottom, #aa076b, #61045f);
-  background: linear-gradient(bottom, #aa076b, #61045f);
-  opacity: 0.9;
-}
-
-.overlay1::after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0,0,0);
-}
 
 /*---------------------------------------------*/
 .how-btn {
@@ -520,7 +489,7 @@ img {
   .w-full-sm {width: 100%;}
 
   /*---------------------------------------------*/
-  
+
 }
 
 

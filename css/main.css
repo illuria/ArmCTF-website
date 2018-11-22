@@ -75,6 +75,16 @@ body, html {
   border-radius: 0px;
 }
 
+.wrap-signup {
+  width: 500px;
+  max-width: calc(100% - 10px);
+  position: relative;
+  background-color: transparent;
+  height: 50px;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 0px;
+}
+
 /*---------------------------------------------*/
 .input100 {
   display: block;
@@ -251,6 +261,14 @@ input.input100 {
   font-size: 70px;
   color: #fff;
   line-height: 1;
+}
+
+.l1-txt2 {
+  font-family: Robotomono-Bold;
+  font-size: 50px;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
 }
 img {
   vertical-align: middle;
